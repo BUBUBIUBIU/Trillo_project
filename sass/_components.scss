@@ -413,8 +413,8 @@
         height: 1rem;
         width: 1rem;
         margin-right: .7rem;
-        // based on the actual CSS file
 
+        // based on the actual CSS file
         // Older browsers
         background-image: url(../img/chevron-thin-right.svg);
         background-size: cover;
@@ -490,7 +490,6 @@
     &__user {
         display: flex;
         align-items: center;
-        // justify-content: center;
     }
 
     &__photo {
