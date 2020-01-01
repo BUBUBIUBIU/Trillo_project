@@ -215,4 +215,28 @@
             </div>
         </div>
     </body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAhAGQwDpRC8JfKKFxpQUl-5y5oLrBQoC8",
+        authDomain: "trillo-542ff.firebaseapp.com",
+        databaseURL: "https://trillo-542ff.firebaseio.com",
+        projectId: "trillo-542ff",
+        storageBucket: "trillo-542ff.appspot.com",
+        messagingSenderId: "373045710656",
+        appId: "1:373045710656:web:ea2e6f407610a67ec6f4a5",
+        measurementId: "G-RVZL1YFSCZ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </html>
